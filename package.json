@@ -1,0 +1,35 @@
+{
+    "name": "@ivoyant/custom-cricket-direct-fulfillment",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "DF",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-link-button": "^1.0.0",
+        "@ivoyant/component-loader": "^1.0.39",
+        "@storybook/addon-knobs": "^6.4.0",
+        "@storybook/react": "^6.5.15",
+        "axios": "^1.2.2",
+        "lodash.clonedeep": "^4.5.0",
+        "lodash.merge": "^4.6.1"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
